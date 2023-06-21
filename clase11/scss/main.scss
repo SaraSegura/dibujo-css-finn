@@ -1,0 +1,298 @@
+$skin: #f6c09c;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-image: url("https://cineverso.es/wp-content/uploads/2018/09/https_2F2Fblueprint-api-production.s3.amazonaws.com2Fuploads2Fcard2Fimage2F8388802Fd7ade4c7-90aa-4f42-a9cd-14f638998b76.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .window {
+      box-shadow: 0 0 100px rgb(70 27 255);
+      padding: 45px 65px 47px 65px;
+      border-radius: 80px;
+
+      background-image: url("https://atrpg-hebbo.weebly.com/uploads/3/7/0/1/37012679/437545567.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .cap {
+        width: 160px;
+        padding: 20px;
+        border: 1px solid black;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        background-color: white;
+        position: relative;
+        .cap-ear-left {
+          position: absolute;
+          top: -20px;
+          left: -1px;
+          border: 1px solid black;
+          width: 40px;
+          height: 110px;
+          border-radius: 50px;
+          background-color: white;
+        }
+        .cap-cover-left {
+          position: absolute;
+          top: -7px;
+          left: 0.25px;
+          width: 41px;
+          height: 110px;
+          border-radius: 50px;
+          background-color: white;
+        }
+        .cap-ear-right {
+          position: absolute;
+          top: -20px;
+          left: 119px;
+          border: 1px solid black;
+          width: 40px;
+          height: 110px;
+          border-radius: 50px;
+          background-color: white;
+        }
+        .cap-cover-right {
+          position: absolute;
+          top: -7px;
+          left: 117px;
+          width: 41px;
+          height: 110px;
+          border-radius: 50px;
+          background-color: white;
+        }
+
+        .head {
+          position: relative;
+          width: 116px;
+          height: 90px;
+          background: $skin;
+          border: 1px solid black;
+          border-radius: 100px;
+          margin: auto;
+          margin-left: 0px;
+          margin-right: 0px;
+
+          .eye-left {
+            position: absolute;
+            top: 25px;
+            left: 20px;
+            width: 10px;
+            height: 15px;
+            border-radius: 100%;
+            background-color: black;
+          }
+          .eye-right {
+            position: absolute;
+            top: 25px;
+            left: 80px;
+            width: 10px;
+            height: 15px;
+            border-radius: 100%;
+            background-color: black;
+          }
+          .smile {
+            position: absolute;
+            top: 35px;
+            left: 43px;
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            border-bottom: 1px solid black;
+          }
+        }
+      }
+      .cuerpo {
+        .tronco {
+          position: relative;
+          background: #3d94ff;
+          width: 160px;
+          height: 160px;
+          border: 1px solid black;
+          z-index: 3;
+          .bolso-left {
+            position: absolute;
+            left: -20px;
+            width: 20px;
+            height: 70px;
+            border: 2px solid black;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            z-index: 2;
+            .tira-one {
+              width: 100%;
+              height: 50%;
+              border-top-left-radius: 20px;
+              background-color: #b4fda3;
+            }
+            .tira-two {
+              width: 100%;
+              height: 50%;
+              border-bottom-left-radius: 20px;
+              background-color: #307d1f;
+            }
+          }
+          .bolso-right {
+            position: absolute;
+            right: -20px;
+            width: 20px;
+            height: 70px;
+            border: 2px solid black;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            z-index: 2;
+            .tira-one {
+              width: 100%;
+              height: 50%;
+              background-color: #b4fda3;
+              border-top-right-radius: 20px;
+            }
+            .tira-two {
+              width: 100%;
+              height: 50%;
+              background-color: #307d1f;
+              border-bottom-right-radius: 20px;
+            }
+          }
+          .manga-left {
+            position: absolute;
+            left: -36px;
+            top: 10px;
+            width: 30px;
+            height: 70px;
+            background: #3d94ff;
+            border: 1px solid black;
+            border-top-left-radius: 40px;
+            z-index: 1;
+            transform: rotate(6deg);
+          }
+          .manga-right {
+            position: absolute;
+            right: -36px;
+            top: 10px;
+            width: 30px;
+            height: 70px;
+            background: #3d94ff;
+            border: 1px solid black;
+            border-top-right-radius: 40px;
+            z-index: 1;
+            transform: rotate(-6deg);
+          }
+          .brazo-left {
+            position: absolute;
+            left: -43px;
+            top: 78px;
+            width: 26px;
+            height: 137px;
+            background: #f6c09c;
+            border: 1px solid black;
+            border-bottom: none;
+            z-index: 1;
+            transform: rotate(4deg);
+          }
+          .brazo-right {
+            position: absolute;
+            right: -43px;
+            top: 78px;
+            width: 26px;
+            height: 137px;
+            background: $skin;
+            border: 1px solid black;
+            border-bottom: none;
+
+            z-index: 1;
+            transform: rotate(-4deg);
+          }
+          .mano-left {
+            position: absolute;
+            left: -48.01px;
+            top: 214px;
+            width: 26px;
+            height: 20px;
+            background: #f6c09c;
+            border: 1px solid black;
+            border-top: none;
+            z-index: 1;
+            transform: rotate(4deg);
+            display: flex;
+            justify-self: center;
+            align-items: end;
+
+            .dedo {
+              width: 100%;
+              height: 50%;
+              border-right: 1px solid black;
+              border-bottom: 30px;
+            }
+          }
+          .mano-right {
+            position: absolute;
+            right: -48.01px;
+            top: 214px;
+            width: 26px;
+            height: 20px;
+            background: #f6c09c;
+            border: 1px solid black;
+            border-top: none;
+            z-index: 1;
+            transform: rotate(-4deg);
+            display: flex;
+            justify-self: center;
+            align-items: end;
+            .dedo {
+              width: 100%;
+              height: 50%;
+              border-right: 1px solid black;
+              border-bottom: 30px;
+            }
+          }
+        }
+        .shorts {
+          position: relative;
+          width: 160px;
+          height: 60px;
+          border: 1px solid black;
+          background: rgb(3, 72, 146);
+          .shorts-leg-left {
+            position: absolute;
+            left: -1px;
+            top: 56px;
+            width: 60px;
+            height: 50px;
+            border: 1px solid black;
+            border-top: none;
+            background: rgb(3, 72, 146);
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+          }
+          .shorts-leg-right {
+            position: absolute;
+            right: -1px;
+            top: 56px;
+            width: 60px;
+            height: 50px;
+            border: 1px solid black;
+            border-top: none;
+            background: rgb(3, 72, 146);
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+}
